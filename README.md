@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-how are you
-Thomas Kammoe
+
+my name:Thomas Kammoe Major:
 IT & Cybersecurity
 

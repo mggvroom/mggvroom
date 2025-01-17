@@ -18,5 +18,5 @@ Here are some ideas to get you started:
 
 my name:Thomas Kammoe Major:
 IT & Cybersecurity project:
-Creating an HTML website.
+Creating an HTML website, code a game using python.
 

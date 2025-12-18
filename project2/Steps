@@ -23,25 +23,3 @@ $ hashcat -m 0 password 500_password
 
 770c0e7e2af0db73409aa2431aa8f33e:4128
 dc40b85276a1f4d7cb35f154236aa1b2:abgrtyu
-
-Session..........: hashcat
-Status...........: Cracked
-Hash.Mode........: 0 (MD5)
-Hash.Target......: password
-Time.Started.....: Sat Dec 13 18:11:58 2025 (0 secs)
-Time.Estimated...: Sat Dec 13 18:11:58 2025 (0 secs)
-Kernel.Feature...: Pure Kernel
-Guess.Base.......: File (500_password)
-Guess.Queue......: 1/1 (100.00%)
-Speed.#1.........:   260.3 kH/s (0.10ms) @ Accel:256 Loops:1 Thr:1 Vec:8
-Recovered........: 500/500 (100.00%) Digests (total), 2/500 (0.40%) Digests (new)
-Progress.........: 500/500 (100.00%)
-Rejected.........: 0/500 (0.00%)
-Restore.Point....: 0/500 (0.00%)
-Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:0-1
-Candidate.Engine.: Device Generator
-Candidates.#1....: 123456 -> albert
-Hardware.Mon.#1..: Util:  8%
-
-Started: Sat Dec 13 18:11:56 2025
-Stopped: Sat Dec 13 18:12:00 2025

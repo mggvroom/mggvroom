@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+
+for item in $(cat 500_password); do
+
+	printf $item | md5sum | awk '{print $1 }' >> password
+done

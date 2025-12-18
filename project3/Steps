@@ -1,0 +1,30 @@
+## cracking a user password.
+
+
+1. So I created a username and put a weak password.
+
+2. I went into /etc/shadow for the user hash password
+and /etc/passwd for the user info. I copied each of 
+those and put into seperate files.
+
+
+3. I merge both file together into a file called shadow.txt. I
+also created a file with some password wich also include that
+user password i'm trying to crack. Then I use john the ripper to
+crack the passowrd and it work.
+
+
+
+
+Code : john --wordlist=password.txt --format=crypt shadow.txt
+
+
+Kammo@MGGVroom:~/Resume_project/project3$ john --wordlist=password.txt --format=crypt shadow.txt
+
+Loaded 1 password hash (crypt, generic crypt(3) [?/64])
+No password hashes left to crack (see FAQ)
+
+kammo@MGGVroom:~/Resume_project/project3$ john --show shadow.txt
+vroom:Bonjour:20435:0:99999:7:::
+
+1 password hash cracked, 0 left

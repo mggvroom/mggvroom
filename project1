@@ -1,0 +1,13 @@
+#created a quest wifi on my router.
+
+- I took my default gateway and paste it onto google and it requested a username and a password.
+ So I put that in and loged in into the router .
+
+- I went to the quest page and create a quest internet by enable guest internet, created a ssid name for the guest,
+I didn't allow the quest to be able to acess my local network. 
+
+I used  WPA2-PSK [AES] as the security type, so I enetered a strong password and it encrypts using AES.
+
+
+I test this by connecting to the quest wifi and when I try to connect to local devices that's connected on the main
+wifi it wasn't showing. 
